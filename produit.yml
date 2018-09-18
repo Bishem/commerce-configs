@@ -22,4 +22,4 @@ management:
         include: "*"
 
 my-configs:
-  limiteDeProduits: 7
+  limiteDeProduits: 8
