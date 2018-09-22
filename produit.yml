@@ -21,6 +21,5 @@ management:
       exposure:
         include: "*"
 
-my-configs:
-  produit:
-    limite: 8
+produit:
+  limite: 8
