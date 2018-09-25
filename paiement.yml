@@ -23,4 +23,4 @@ management:
 
 commande:
   ribbon:
-    listOfServers: localhost:9002, localhost:9012, localhost:9022
+    listOfServers: localhost:9002, localhost:9012
