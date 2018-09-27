@@ -14,12 +14,18 @@ management:
 
 produit:
   ribbon:
-    listOfServers: localhost:9001, localhost:9011
+    listOfServers: 
+      - localhost:9001
+      - localhost:9011
 
 commande:
   ribbon:
-    listOfServers: localhost:9002, localhost:9012
+    listOfServers: 
+      - localhost:9002
+      - localhost:9012
 
 paiement:
   ribbon:
-    listOfServers: localhost:9003, localhost:9013
+    listOfServers: 
+      - localhost:9003
+      - localhost:9013
