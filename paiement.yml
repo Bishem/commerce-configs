@@ -21,6 +21,6 @@ management:
       exposure:
         include: "*"
 
-commande:
-  ribbon:
-    listOfServers: localhost:9002, localhost:9012
+#commande:
+#  ribbon:
+#    listOfServers: localhost:9002, localhost:9012
