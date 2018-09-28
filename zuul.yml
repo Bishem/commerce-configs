@@ -1,2 +1,8 @@
 server:
   port: 9004
+
+spring:
+  security:
+    user:
+      name: "admin"
+      password: "admin"
