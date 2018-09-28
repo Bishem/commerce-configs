@@ -4,17 +4,17 @@ server:
 produit:
   ribbon:
     listOfServers: 
-      - localhost:9001
-      - localhost:9011
+      one: "localhost:9001"
+      two: "localhost:9011"
 
 commande:
   ribbon:
     listOfServers: 
-      - localhost:9002
-      - localhost:9012
+      one: "localhost:9002"
+      two: "localhost:9012"
 
 paiement:
   ribbon:
     listOfServers: 
-      - localhost:9003
-      - localhost:9013
+      one: "localhost:9003"
+      two: "localhost:9013"
