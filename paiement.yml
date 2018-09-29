@@ -9,6 +9,4 @@ spring:
     
 commande:
   ribbon:
-    listOfServers: 
-      - "localhost:9002"
-      - "localhost:9012"
+    listOfServers: "localhost:9002", "localhost:9012"
