@@ -1,1 +1,1 @@
-# mycommerce-config
+# Commerce Configurations
