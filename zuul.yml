@@ -1,8 +1,8 @@
 server:
   port: ${PORT:9004}
 
-#spring:
-#  security:
-#    user:
-#      name: "admin"
-#      password: "admin"
+spring:
+ security:
+   user:
+     name: "admin"
+     password: "admin"
