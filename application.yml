@@ -2,6 +2,8 @@
 #  port: ${PORT:${SERVER_PORT:0}}
 
 eureka:
+  instance:
+    health-check-url-path: "/actuator/health"
   client:
     serviceUrl:
       defaultZone: "http://localhost:9102/eureka"
