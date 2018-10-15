@@ -3,3 +3,8 @@ spring:
    user:
      name: "admin"
      password: "admin"
+
+zuul:
+  routes:
+    application:
+      sensitive-headers: Cookie,Set-Cookie
