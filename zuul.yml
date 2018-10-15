@@ -1,6 +1,3 @@
-server:
-  port: ${PORT:9004}
-
 spring:
  security:
    user:
