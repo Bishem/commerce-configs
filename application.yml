@@ -16,6 +16,10 @@ management:
       exposure:
         include: "*"
 
+ribbon:
+    ConnectTimeout: 10000
+    ReadTimeout: 10000
+    
 info:
   app:
     version: 1.0-Beta
