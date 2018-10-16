@@ -2,3 +2,7 @@ server:
   port: ${PORT:8080}
   error:
     include-stacktrace: always
+
+ribbon:
+    ConnectTimeout: 50000
+    ReadTimeout: 50000
