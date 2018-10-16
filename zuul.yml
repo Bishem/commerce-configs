@@ -8,7 +8,3 @@ zuul:
   host:
     socket-timeout-millis: 50000
     connect-timeout-millis: 50000
-      
-ribbon:
-    ConnectTimeout: 50000
-    ReadTimeout: 50000

@@ -6,7 +6,3 @@ spring:
       enabled: true
   datasource:
     sql-script-encoding: UTF-8
-    
-ribbon:
-    ConnectTimeout: 50000
-    ReadTimeout: 50000
