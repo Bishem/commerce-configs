@@ -6,14 +6,5 @@ spring:
      
 zuul:
   host:
-    socket-timeout-millis: 5000
-    connect-timeout-millis: 5000
-  routes:
-    application:
-      path: /microservice-commande/**
-      serviceId: microservice-commande
-      sensitive-headers: Cookie, Set-Cookie, Authorization
-      
-#ribbon:
-#    ConnectTimeout: 5000
-#    ReadTimeout: 5000
+    socket-timeout-millis: 50000
+    connect-timeout-millis: 50000
